@@ -3,7 +3,7 @@
                 var turn = 0; 
                 var level = 1;
                 var clickplace=0;
-                var tasktime=30;
+                var tasktime=60;
                 var sndtaskend = new Audio("sounds\\taskend.wav");
                 
             
@@ -83,7 +83,7 @@
                     {text:"Both drink!"},
                     {text:"<b style=\"color:"+player[1].color+"\">MAN</b> lies down and <b style=\"color:"+player[0].color+"\">WOMAN</b> sits on his lap and rubs herself on <b style=\"color:"+player[1].color+"\">MAN</b>!"},
                     {text:"<b style=\"color:"+player[1].color+"\">MAN</b> stands and <b style=\"color:"+player[0].color+"\">WOMAN</b> plays with his balls!"},
-                    {text:"<b style=\"color:"+player[1].color+"\">MAN</b> lies sidewards. Massage her butthole!"},
+                    {text:"<b style=\"color:"+player[1].color+"\">MAN</b> lies sidewards. Massage his butt!"},
                     {text:"Both drink!"},
                     {text:"<b style=\"color:"+player[1].color+"\">MAN</b> sits down, <b style=\"color:"+player[0].color+"\">WOMAN</b> gets in front on her knees and rubs her breasts on his dick!"},//trocar
                     {text:"<b style=\"color:"+player[0].color+"\">WOMAN</b> sit down in front of <b style=\"color:"+player[1].color+"\">MAN</b> and play herself!"},//trocar
