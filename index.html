@@ -35,7 +35,7 @@ and open the template in the editor.
 </head>
 <body onload="checkTurn()" class="bg-dark">
 
-    <div class="navbar bg-light" >
+    <div class="navbar bg-light collapse show" id="navbar1" >
         <a class="navbar-brand" href="#" style="color:pink;font-size:40px;">
             <img src="img/logo/logo_clean.png" width="110" height="90" alt="PleaseMe"/>
             <b>LoveGame</b>
@@ -45,7 +45,11 @@ and open the template in the editor.
             <iframe src="https://open.spotify.com/embed?uri=spotify%3Auser%3Aspotify%3Aplaylist%3A37i9dQZF1DX0QKpU3cGsyb" width="300" height="80" frameborder="0" allowtransparency="false"></iframe>   
         </div>        
     </div>
-    <br>
+	<center>
+    <a href="#navbar1" data-toggle="collapse" class="collapsed" aria-expanded="false">
+        <h1 id="toggle">
+    <i class="fa fa-angle-double-up"></i>
+</h1></a></center>
     <div id="loginDiv" class="container bg-dark">	
         <div id="formcontainer" class="row justify-content-center">
             <div class="TileCol col-md-6 ">
@@ -326,7 +330,12 @@ and open the template in the editor.
   </div>
 </div>
     
-                
+<script>
+	$("#toggle").click(function() {
+debugger;;
+    $(this).find('i').toggleClass('fa-angle-double-up fa-angle-double-down');
+});
+</script>                
 <!--
 	<div class="pull-right">
             <a href='http://www.freevisitorcounters.com'>Counters
