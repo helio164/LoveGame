@@ -11,7 +11,7 @@
                 
                 var player = [
                     {name:"", position:0, color:"pink"},
-                    {name:"", position:0, color:"#333399"}
+                    {name:"", position:0, color:"#6464f6"}
                 ];
                 
                 var womanTask = [
