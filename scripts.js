@@ -202,18 +202,16 @@
                 function submitClick(){                    
                     var name1 = document.getElementById("name1").value;
                     var name2 = document.getElementById("name2").value;                    
-                   
-                    if(name1.length >= 1 || name2.length >= 1){ 
-                        player[0].name = name1;
-                        player[1].name = name2;
-                        
-                        document.getElementById("roll").disabled = false;
-                        
-                        document.getElementById("loginDiv").style.display = 'none';
-                        document.getElementById("divDice").style.display = 'inline';
-                        document.getElementById("divBoard").style.display = 'inline';
-			checkTurn();
-                    }
+                
+                    player[0].name = (name1.length >= 1?name1:"Lady");
+                    player[1].name = (name2.length >= 1?name2:"Gentleman");
+
+                    document.getElementById("roll").disabled = false;
+                    
+                    document.getElementById("loginDiv").style.display = 'none';
+                    document.getElementById("divDice").style.display = 'inline';
+                    document.getElementById("divBoard").style.display = 'inline';
+			        checkTurn();                    
                 }
                 
                 function blockDice(){
